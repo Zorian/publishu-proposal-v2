@@ -1,11 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>PublishU — The Author Business Proposal</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <style>
 *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
 :root{
@@ -340,6 +332,96 @@ footer{background:var(--charcoal);padding:28px 0;border-top:1px solid rgba(255,2
 .rsc-title{color:var(--ink) !important}
 .rsc-sub{color:var(--muted) !important}
 .ri-title{color:var(--ink) !important}
+
+/* === IMPORTED FROM ORIGINAL PROPOSAL === */
+.avenues-section{padding:90px 0;background:var(--ink)}
+.avenues-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.avenue{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.1);border-radius:8px;padding:24px;transition:all .25s;position:relative;color:white}
+.avenue:hover{background:rgba(255,255,255,.08);box-shadow:0 8px 32px rgba(0,0,0,.2);border-color:rgba(255,255,255,.18);transform:translateY(-2px)}
+.avenue-num{font-family:'Cormorant Garamond',serif;font-size:2.4rem;font-weight:600;color:rgba(255,255,255,.07);position:absolute;top:16px;right:18px;line-height:1}
+.avenue-icon{font-size:1.5rem;margin-bottom:12px}
+.avenue-label{font-size:.6rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--green-light);margin-bottom:6px}
+.avenue-title{font-family:'Cormorant Garamond',serif;font-size:1.2rem;font-weight:500;color:white;line-height:1.3;margin-bottom:8px}
+.avenue-desc{font-size:.8rem;color:rgba(255,255,255,.5);line-height:1.6;margin-bottom:14px}
+.avenue-earning{background:rgba(26,107,74,.25);border:1px solid rgba(26,107,74,.4);border-radius:4px;padding:10px 14px}
+.avenue-tags{display:flex;gap:6px;margin-top:10px;flex-wrap:wrap}
+.tiers-section{padding:90px 0;background:var(--warm)}
+.tiers-intro{text-align:center;margin-bottom:16px}
+.menu-note{display:inline-flex;align-items:center;gap:10px;background:var(--green-pale);border:1px solid var(--border-mid);border-radius:4px;padding:12px 20px;font-size:.78rem;color:var(--green-dim);margin-bottom:44px}
+.menu-note strong{font-weight:700}
+.tiers-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:0;border:1px solid var(--border);border-radius:8px;overflow:hidden;box-shadow:0 4px 32px rgba(26,107,74,.06)}
+.tier-col{display:flex;flex-direction:column;background:white}
+.tier-col.featured{background:white;border-left:1px solid var(--border);border-right:1px solid var(--border)}
+.tier-col.premium{background:white;border-left:1px solid var(--border)}
+.tier-head{padding:28px 24px;border-bottom:1px solid var(--border)}
+.tier-col.featured .tier-head{background:var(--green);border-bottom:none}
+.tier-col.premium .tier-head{background:var(--ink);border-bottom:none}
+.tier-badge{font-size:.58rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;margin-bottom:8px;color:var(--muted)}
+.tier-col.featured .tier-badge{color:rgba(255,255,255,.55)}
+.tier-col.premium .tier-badge{color:var(--gold)}
+.tier-name{font-family:'Cormorant Garamond',serif;font-size:1.8rem;font-weight:500;color:var(--ink);margin-bottom:4px}
+.tier-col.featured .tier-name,.tier-col.premium .tier-name{color:white}
+.tier-setup{font-family:'Cormorant Garamond',serif;font-size:1.2rem;font-weight:600;color:var(--green)}
+.tier-col.featured .tier-setup,.tier-col.premium .tier-setup{color:rgba(255,255,255,.85)}
+.tier-retainer{font-size:.72rem;color:var(--muted);margin-top:2px}
+.tier-col.featured .tier-retainer,.tier-col.premium .tier-retainer{color:rgba(255,255,255,.45)}
+.tier-body{padding:20px 24px;flex:1}
+.tier-cat{font-size:.6rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--green);margin:16px 0 8px;padding-top:14px;border-top:1px solid var(--border)}
+.tier-cat:first-child{margin-top:4px;padding-top:0;border-top:none}
+.tier-row{display:flex;gap:9px;align-items:flex-start;padding:6px 0;border-bottom:1px solid rgba(212,230,221,.4)}
+.tier-row:last-child{border-bottom:none}
+.tr-ico{width:17px;height:17px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:.6rem;font-weight:700;margin-top:1px}
+.tr-ico.y{background:var(--green-pale);color:var(--green);border:1.5px solid var(--border-mid)}
+.tr-ico.n{background:#f7f7f7;color:#d0d0d0;border:1.5px solid #e8e8e8}
+.tr-text{font-size:.78rem;color:var(--text);line-height:1.45}
+.tr-text.off{color:#c8c8c8;text-decoration:line-through}
+.tr-text strong{color:var(--ink);font-weight:600}
+.tier-col.premium .tier-potential{background:var(--ink);border-color:rgba(255,255,255,.1)}
+.tier-col.premium .tp-label{color:rgba(255,255,255,.4)}
+.tier-col.premium .tp-amount{color:var(--green-light)}
+.tier-col.premium .tp-note{color:rgba(255,255,255,.3)}
+.tier-strategies-count{display:inline-flex;align-items:center;gap:6px;margin-top:8px;background:rgba(255,255,255,.15);border-radius:3px;padding:5px 10px}
+.tier-col:not(.featured):not(.premium) .tier-strategies-count{background:var(--green-pale)}
+.tsc-num{font-family:'Cormorant Garamond',serif;font-size:1.4rem;font-weight:600;color:var(--green)}
+.tier-col.featured .tsc-num,.tier-col.premium .tsc-num{color:white}
+.tsc-txt{font-size:.62rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.tier-col.featured .tsc-txt,.tier-col.premium .tsc-txt{color:rgba(255,255,255,.55)}
+.roi-section{padding:90px 0;background:var(--green)}
+.roi-tabs{display:flex;gap:0;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.15);border-radius:6px;overflow:hidden;max-width:560px;margin:44px auto 36px}
+.roi-tab{flex:1;padding:13px 10px;font-size:.72rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:rgba(255,255,255,.6);text-align:center;cursor:pointer;border:none;background:transparent;transition:all .2s;border-right:1px solid rgba(255,255,255,.1);line-height:1.3}
+.roi-tab:last-child{border-right:none}
+.roi-tab.active{background:rgba(255,255,255,.95);color:var(--green)}
+.roi-tab:hover:not(.active){background:rgba(255,255,255,.1)}
+.roi-panel{display:none;max-width:900px;margin:0 auto}
+.roi-panel.active{display:grid;grid-template-columns:1fr 1fr;gap:28px}
+.roi-streams-card{background:white;border:1px solid var(--border);border-radius:8px;overflow:hidden}
+.rsc-head{padding:18px 22px;border-bottom:1px solid var(--border)}
+.rsc-title{font-family:'Cormorant Garamond',serif;font-size:1.2rem;font-weight:500;color:var(--ink)}
+.rsc-sub{font-size:.75rem;color:var(--muted);margin-top:3px}
+.rsc-streams{padding:0}
+.rs{display:flex;justify-content:space-between;align-items:center;padding:13px 22px;border-bottom:1px solid var(--border)}
+.rs-name{font-size:.82rem;color:var(--text);font-weight:500}
+.rs-note{font-size:.7rem;color:var(--muted);margin-top:2px}
+.rs-amount{font-family:'Cormorant Garamond',serif;font-size:1.1rem;font-weight:600;color:var(--ink);white-space:nowrap}
+.rs.locked{opacity:.35}
+.rs.locked .rs-name{text-decoration:line-through}
+.rsc-total{background:var(--green);padding:18px 22px;display:flex;justify-content:space-between;align-items:center}
+.rsc-total-label{font-size:.72rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.7)}
+.rsc-total-amount{font-family:'Cormorant Garamond',serif;font-size:2rem;font-weight:600;color:white}
+.ri-title{font-family:'Cormorant Garamond',serif;font-size:1.4rem;font-weight:500;color:var(--ink);margin-bottom:20px}
+.ri-points{display:flex;flex-direction:column;gap:14px}
+.ri-point{display:flex;gap:12px;font-size:.85rem;color:var(--text);line-height:1.55}
+.ri-point-dot{width:6px;height:6px;border-radius:50%;background:var(--green);flex-shrink:0;margin-top:7px}
+.ri-point strong{color:var(--ink)}
+.ri-available{margin-top:20px;padding:16px;background:var(--green-pale);border-radius:4px;border:1px solid var(--border)}
+.roi-section .h2,.build-section .h2,.avenues-section .h2{color:white !important}
+.roi-section .h2 em,.build-section .h2 em,.avenues-section .h2 em{color:rgba(255,255,255,.7) !important}
+.roi-section .ey-txt,.build-section .ey-txt,.avenues-section .ey-txt{color:rgba(255,255,255,.65) !important}
+.roi-section .ey-line,.build-section .ey-line,.avenues-section .ey-line{background:rgba(255,255,255,.35) !important}
+.roi-section .body-t,.avenues-section .body-t{color:rgba(255,255,255,.65) !important}
+.rsc-title{color:var(--ink) !important}
+.rsc-sub{color:var(--muted) !important}
+.ri-title{color:var(--ink) !important}
 </style>
 </head>
 <body>
@@ -513,7 +595,8 @@ footer{background:var(--charcoal);padding:28px 0;border-top:1px solid rgba(255,2
 
 
 
-<!-- AVENUES + ROI (from original proposal) -->
+
+<!-- AVENUES -->
 <section class="avenues-section" id="strategies">
   <div class="container">
     <div class="section-header">
@@ -959,6 +1042,190 @@ footer{background:var(--charcoal);padding:28px 0;border-top:1px solid rgba(255,2
 </section>
 
 
+<!-- TIERS -->
+<section class="tiers-section" id="tiers">
+  <div class="container">
+    <div class="section-header tiers-intro">
+      <div class="ey reveal" style="justify-content:center"><div class="ey-line"></div><div class="ey-txt">The Packages</div><div class="ey-line"></div></div>
+      <h2 class="h2 reveal d1" style="text-align:center">Nine ways your legacy creates<br><em>income and impact.</em></h2>
+      <p class="body-t mu reveal d2" style="text-align:center;max-width:500px;margin:12px auto 0">Every package gives you a fully built and managed author business. The difference is how many impact strategies are live from day one.</p>
+    </div>
+    <div style="text-align:center">
+      <div class="menu-note reveal d2">
+        <strong>Menu-based selection</strong> — pick any 3, 6, or all 9 strategies from the list above. We build and manage every one.
+      </div>
+    </div>
+    <div class="tiers-grid reveal d1">
+
+      <!-- PLATFORM -->
+      <div class="tier-col">
+        <div class="tier-head">
+          <div class="tier-badge">The Launch</div>
+          <div class="tier-name">Launch</div>
+          <div class="tier-setup">£10,000 setup</div>
+          <div class="tier-retainer">+ £997/month base retainer</div>
+          <div class="tier-strategies-count"><span class="tsc-num">3</span><span class="tsc-txt">strategies of your choice</span></div>
+        </div>
+        <div class="tier-body">
+          <div class="tier-cat">Lead Magnet</div>
+          <div class="tier-row"><div class="tr-ico y">✓</div><div class="tr-text">LEGACY magazine — bespoke to you</div></div>
+          <div class="tier-row"><div class="tr-ico y">✓</div><div class="tr-text">Email capture + nurture sequences</div></div>
+
+          <div class="tier-cat">Your Selection</div>
+          <div class="tier-row"><div class="tr-ico y">✓</div><div class="tr-text">Strategy 1</div></div>
+          <div class="tier-row"><div class="tr-ico y">✓</div><div class="tr-text">Strategy 2</div></div>
+          <div class="tier-row"><div class="tr-ico y">✓</div><div class="tr-text">Strategy 3</div></div>
+
+          <div class="tier-cat">Technology</div>
+          <div class="tier-row"><div class="tr-ico y">✓</div><div class="tr-text">Author website built</div></div>
+          <div class="tier-row"><div class="tr-ico y">✓</div><div class="tr-text">Dedicated pages per strategy</div></div>
+          <div class="tier-row"><div class="tr-ico y">✓</div><div class="tr-text">CRM &amp; automation</div></div>
+          <div class="tier-row"><div class="tr-ico n">–</div><div class="tr-text off">AI chatbot (website)</div></div>
+          <div class="tier-row"><div class="tr-ico n">–</div><div class="tr-text off">AI assistant (WhatsApp)</div></div>
+          <div class="tier-cat">Management</div>
+          <div class="tier-row"><div class="tr-ico y">✓</div><div class="tr-text">Dedicated growth partner</div></div>
+          <div class="tier-row"><div class="tr-ico y">✓</div><div class="tr-text">Monthly strategy calls</div></div>
+          <div class="tier-row"><div class="tr-ico y">✓</div><div class="tr-text">Email marketing &amp; design</div></div>
+        </div>
+        <div class="tier-foot">
+          <div class="tier-potential">
+            <div class="tp-label">Monthly potential</div>
+            <div class="tp-amount">£5,970+/mo</div>
+            <div class="tp-note">Based on 3 strategies at 2% conversion of 500 email subscribers</div>
+          </div>
+          <a href="#cta" class="btn-outline" style="display:block;text-align:center">Start with Launch</a>
+        </div>
+      </div>
+
+      <!-- AUTHORITY -->
+      <div class="tier-col featured">
+        <div class="tier-head">
+          <div class="tier-badge">The Grow — Most Popular</div>
+          <div class="tier-name">Grow</div>
+          <div class="tier-setup">£18,000 setup</div>
+          <div class="tier-retainer">+ £997/month base retainer</div>
+          <div class="tier-strategies-count"><span class="tsc-num">6</span><span class="tsc-txt">strategies of your choice</span></div>
+        </div>
+        <div class="tier-body">
+          <div class="tier-cat">Lead Magnet</div>
+          <div class="tier-row"><div class="tr-ico y">✓</div><div class="tr-text">LEGACY magazine — bespoke to you</div></div>
+          <div class="tier-row"><div class="tr-ico y">✓</div><div class="tr-text">Email capture + full nurture sequences</div></div>
+
+          <div class="tier-cat">Your Selection</div>
+          <div class="tier-row"><div class="tr-ico y">✓</div><div class="tr-text">Strategy 1</div></div>
+          <div class="tier-row"><div class="tr-ico y">✓</div><div class="tr-text">Strategy 2</div></div>
+          <div class="tier-row"><div class="tr-ico y">✓</div><div class="tr-text">Strategy 3</div></div>
+          <div class="tier-row"><div class="tr-ico y">✓</div><div class="tr-text">Strategy 4</div></div>
+          <div class="tier-row"><div class="tr-ico y">✓</div><div class="tr-text">Strategy 5</div></div>
+          <div class="tier-row"><div class="tr-ico y">✓</div><div class="tr-text">Strategy 6</div></div>
+
+          <div class="tier-cat">Technology</div>
+          <div class="tier-row"><div class="tr-ico y">✓</div><div class="tr-text">Full author website (all pages)</div></div>
+          <div class="tier-row"><div class="tr-ico y">✓</div><div class="tr-text">CRM &amp; full automation</div></div>
+          <div class="tier-row"><div class="tr-ico y">✓</div><div class="tr-text">AI chatbot (website)</div></div>
+          <div class="tier-row"><div class="tr-ico n">–</div><div class="tr-text off">AI assistant (WhatsApp)</div></div>
+          <div class="tier-cat">Management</div>
+          <div class="tier-row"><div class="tr-ico y">✓</div><div class="tr-text">Dedicated growth partner</div></div>
+          <div class="tier-row"><div class="tr-ico y">✓</div><div class="tr-text">Monthly strategy calls</div></div>
+          <div class="tier-row"><div class="tr-ico y">✓</div><div class="tr-text">Email marketing &amp; design</div></div>
+        </div>
+        <div class="tier-foot">
+          <div class="tier-potential">
+            <div class="tp-label">Monthly potential</div>
+            <div class="tp-amount">£20,000+/mo</div>
+            <div class="tp-note">Based on 6 strategies at 2% conversion of 500 email subscribers</div>
+          </div>
+          <a href="#cta" class="btn-primary" style="display:block;text-align:center">Start with Grow</a>
+        </div>
+      </div>
+
+      <!-- EMPIRE -->
+      <div class="tier-col premium">
+        <div class="tier-head">
+          <div class="tier-badge">The Scale — All 9 Strategies</div>
+          <div class="tier-name">Scale</div>
+          <div class="tier-setup">£26,000 setup</div>
+          <div class="tier-retainer">+ £997/month base retainer</div>
+          <div class="tier-strategies-count"><span class="tsc-num">9</span><span class="tsc-txt">all strategies activated</span></div>
+        </div>
+        <div class="tier-body">
+          <div class="tier-cat">Lead Magnet</div>
+          <div class="tier-row"><div class="tr-ico y">✓</div><div class="tr-text">LEGACY magazine — bespoke to you</div></div>
+          <div class="tier-row"><div class="tr-ico y">✓</div><div class="tr-text">Email capture + nurture sequences</div></div>
+
+          <div class="tier-cat">All 9 Strategies</div>
+          <div class="tier-row"><div class="tr-ico y">✓</div><div class="tr-text">Digital Products — <strong>bespoke to your sector</strong></div></div>
+          <div class="tier-row"><div class="tr-ico y">✓</div><div class="tr-text">Courses — <strong>mid &amp; high ticket</strong></div></div>
+          <div class="tier-row"><div class="tr-ico y">✓</div><div class="tr-text">Quarterly Masterclass</div></div>
+          <div class="tier-row"><div class="tr-ico y">✓</div><div class="tr-text">6-Month Mastermind</div></div>
+          <div class="tier-row"><div class="tr-ico y">✓</div><div class="tr-text">1:1 Private Coaching</div></div>
+          <div class="tier-row"><div class="tr-ico y">✓</div><div class="tr-text">Keynote Speaking Page</div></div>
+          <div class="tier-row"><div class="tr-ico y">✓</div><div class="tr-text">Trusted Advisor / Consultant Retainer</div></div>
+          <div class="tier-row"><div class="tr-ico y">✓</div><div class="tr-text">Podcast — full setup &amp; editing</div></div>
+          <div class="tier-row"><div class="tr-ico y">✓</div><div class="tr-text">Custom Strategy — <strong>built around you</strong></div></div>
+          <div class="tier-cat">Technology</div>
+          <div class="tier-row"><div class="tr-ico y">✓</div><div class="tr-text">Full website (all pages)</div></div>
+          <div class="tier-row"><div class="tr-ico y">✓</div><div class="tr-text">CRM, automation &amp; pipeline</div></div>
+          <div class="tier-row"><div class="tr-ico y">✓</div><div class="tr-text">AI chatbot (website)</div></div>
+          <div class="tier-row"><div class="tr-ico y">✓</div><div class="tr-text">AI assistant (WhatsApp, 24/7)</div></div>
+          <div class="tier-cat">Management</div>
+          <div class="tier-row"><div class="tr-ico y">✓</div><div class="tr-text">Dedicated growth partner</div></div>
+          <div class="tier-row"><div class="tr-ico y">✓</div><div class="tr-text">Monthly strategy calls</div></div>
+          <div class="tier-row"><div class="tr-ico y">✓</div><div class="tr-text">Email marketing &amp; design</div></div>
+        </div>
+        <div class="tier-foot">
+          <div class="tier-potential">
+            <div class="tp-label">Monthly potential</div>
+            <div class="tp-amount">£38,000+/mo</div>
+            <div class="tp-note">Based on all 9 strategies at 2% conversion of 500 email subscribers</div>
+          </div>
+          <a href="#cta" class="btn-primary" style="display:block;text-align:center">Start with Scale</a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Tiered retainer note -->
+    <div class="reveal d2" style="margin-top:28px;background:white;border:1px solid var(--border);border-radius:8px;padding:28px 32px;">
+      <div style="display:flex;align-items:flex-start;gap:20px;flex-wrap:wrap;">
+        <div style="flex:1;min-width:220px;">
+          <div style="font-size:0.6rem;font-weight:700;letter-spacing:0.16em;text-transform:uppercase;color:var(--terra);margin-bottom:8px;">Your Monthly Retainer</div>
+          <div style="font-family:'Playfair Display',serif;font-size:1.15rem;font-weight:500;color:var(--ink);margin-bottom:8px;">We grow <em style="font-style:italic;color:var(--terra);">with</em> you.</div>
+          <div style="font-size:0.82rem;color:var(--muted);line-height:1.65;max-width:380px;">Your retainer starts at £997 and scales automatically as your business grows — so our team always matches the size of the business we're running together. Agreed upfront. No surprises.</div>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:8px;min-width:260px;">
+          <div style="display:flex;justify-content:space-between;align-items:center;padding:10px 16px;background:var(--cream);border-radius:4px;border:1px solid var(--border);">
+            <div style="font-size:0.78rem;color:var(--muted);">Up to £5,000/mo earned</div>
+            <div style="font-family:'Playfair Display',serif;font-size:0.95rem;font-weight:600;color:var(--terra);">£997/mo</div>
+          </div>
+          <div style="display:flex;justify-content:space-between;align-items:center;padding:10px 16px;background:var(--cream);border-radius:4px;border:1px solid var(--border);">
+            <div style="font-size:0.78rem;color:var(--muted);">£5,000 – £15,000/mo earned</div>
+            <div style="font-family:'Playfair Display',serif;font-size:0.95rem;font-weight:600;color:var(--terra);">£1,997/mo</div>
+          </div>
+          <div style="display:flex;justify-content:space-between;align-items:center;padding:10px 16px;background:var(--cream);border-radius:4px;border:1px solid var(--border);">
+            <div style="font-size:0.78rem;color:var(--muted);">£15,000 – £30,000/mo earned</div>
+            <div style="font-family:'Playfair Display',serif;font-size:0.95rem;font-weight:600;color:var(--terra);">£2,997/mo</div>
+          </div>
+          <div style="display:flex;justify-content:space-between;align-items:center;padding:10px 16px;background:var(--terra);border-radius:4px;">
+            <div style="font-size:0.78rem;color:rgba(255,255,255,0.75);">£30,000+/mo earned</div>
+            <div style="font-family:'Playfair Display',serif;font-size:0.95rem;font-weight:600;color:white;">£4,997/mo</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- COMMISSION NOTE -->
+<div style="background:rgba(26,107,74,0.06);border-top:1px solid rgba(26,107,74,0.15);border-bottom:1px solid rgba(26,107,74,0.15);padding:28px 0;">
+  <div class="container" style="max-width:700px;text-align:center;">
+    <p style="font-size:0.78rem;letter-spacing:0.12em;text-transform:uppercase;color:var(--green);font-weight:600;margin-bottom:8px;">Revenue Share</p>
+    <p style="font-size:0.95rem;color:var(--muted);line-height:1.7;">On digital products and courses built entirely on our platform — Strategies 1 &amp; 2 — we take a <strong style="color:var(--green);">10% revenue share</strong>. This is how we stay invested in your growth — the more you earn, the more we earn. Our incentive is always to build you assets that actually sell.</p>
+  </div>
+</div>
+
+
 <!-- MINI TIERS BRIDGE -->
 <section style="padding:64px 0;background:var(--warm);border-top:1px solid var(--border);border-bottom:1px solid var(--border)">
   <div class="container">
@@ -984,130 +1251,6 @@ footer{background:var(--charcoal);padding:28px 0;border-top:1px solid rgba(255,2
         <div style="font-size:.82rem;color:var(--muted);line-height:1.7;margin-bottom:16px">We build it, run it, and actively fill your programmes. Paid ads, seat-filling campaigns, speaking outreach. Every stream live and growing.</div>
         <div style="font-family:'Cormorant Garamond',serif;font-size:1.3rem;font-weight:600;color:var(--ink)">£26,000 <span style="font-family:'Raleway',sans-serif;font-size:.75rem;font-weight:400;color:var(--muted)">+ £2,997/mo</span></div>
       </div>
-    </div>
-  </div>
-</section>
-
-<!-- TIERS -->
-<section class="tiers-section" id="tiers">
-  <div class="container">
-    <div class="tiers-intro">
-      <div class="ey cent reveal"><div class="ey-line"></div><div class="ey-txt">Choose Your Package</div><div class="ey-line"></div></div>
-      <h2 class="h2 reveal d1">Three ways to build<br><em>your author business.</em></h2>
-      <p class="body-t mu reveal d2" style="margin-top:14px">Every tier includes the full ecosystem build. The difference is how much of the ongoing growth we own for you.</p>
-    </div>
-    <div class="tiers-grid">
-
-      <!-- LAUNCH -->
-      <div class="tier-card reveal">
-        <div class="tier-head">
-          <div class="tier-badge">Launch</div>
-          <div class="tier-name">We Build It.<br>You Grow It.</div>
-          <div class="tier-tagline">The complete infrastructure — built and handed over. You take the wheel.</div>
-        </div>
-        <div class="tier-setup">
-          <div class="tier-setup-price">£10,000</div>
-          <div class="tier-setup-label">One-time setup · Full ecosystem build</div>
-        </div>
-        <div class="tier-body">
-          <div class="tier-retainer">then <strong>£997/mo</strong> — platform management & strategy</div>
-          <div class="tier-streams">Active Revenue Streams</div>
-          <div class="tier-stream-list">
-            <span class="tier-stream-tag">Email List</span>
-            <span class="tier-stream-tag">Digital Products</span>
-            <span class="tier-stream-tag">Speaking Page</span>
-          </div>
-          <div class="tier-items">
-            <div class="tier-item"><span class="tier-item-check">✓</span>Full author website built</div>
-            <div class="tier-item"><span class="tier-item-check">✓</span>3 revenue streams live</div>
-            <div class="tier-item"><span class="tier-item-check">✓</span>CRM & email automations</div>
-            <div class="tier-item"><span class="tier-item-check">✓</span>Lead magnet & opt-in built</div>
-            <div class="tier-item"><span class="tier-item-check">✓</span>Monthly strategy call</div>
-            <div class="tier-item"><span class="tier-item-check">✓</span>Platform maintained & updated</div>
-            <div class="tier-divider"></div>
-            <div class="tier-item locked"><span class="tier-item-check">–</span>LinkedIn content management</div>
-            <div class="tier-item locked"><span class="tier-item-check">–</span>Active seat filling</div>
-            <div class="tier-item locked"><span class="tier-item-check">–</span>Paid ads management</div>
-            <div class="tier-item locked"><span class="tier-item-check">–</span>Speaking outreach</div>
-          </div>
-          <a href="#cta" class="tier-cta">Get Started →</a>
-        </div>
-      </div>
-
-      <!-- GROW -->
-      <div class="tier-card featured reveal d1">
-        <div class="tier-recommended">Most Popular</div>
-        <div class="tier-head" style="margin-top:32px">
-          <div class="tier-badge feat">Grow</div>
-          <div class="tier-name">We Build It<br>& Run It.</div>
-          <div class="tier-tagline">We manage the full operation so you show up and do what you do best.</div>
-        </div>
-        <div class="tier-setup feat-bg">
-          <div class="tier-setup-price">£18,000</div>
-          <div class="tier-setup-label">One-time setup · Full ecosystem build</div>
-        </div>
-        <div class="tier-body">
-          <div class="tier-retainer">then <strong>£1,997/mo</strong> — full backend management & content</div>
-          <div class="tier-streams">Active Revenue Streams</div>
-          <div class="tier-stream-list">
-            <span class="tier-stream-tag">Email List</span>
-            <span class="tier-stream-tag">Digital Products</span>
-            <span class="tier-stream-tag">Masterclass</span>
-            <span class="tier-stream-tag">Speaking</span>
-            <span class="tier-stream-tag">Mastermind</span>
-          </div>
-          <div class="tier-items">
-            <div class="tier-item"><span class="tier-item-check">✓</span>Everything in Launch</div>
-            <div class="tier-item"><span class="tier-item-check">✓</span>5 revenue streams active</div>
-            <div class="tier-item"><span class="tier-item-check">✓</span>LinkedIn content 3x/week — written & posted</div>
-            <div class="tier-item"><span class="tier-item-check">✓</span>Monthly email campaigns to your list</div>
-            <div class="tier-item"><span class="tier-item-check">✓</span>CRM & pipeline fully managed</div>
-            <div class="tier-item"><span class="tier-item-check">✓</span>Masterclass & mastermind set up</div>
-            <div class="tier-item"><span class="tier-item-check">✓</span>Graphic designer included</div>
-            <div class="tier-divider"></div>
-            <div class="tier-item locked"><span class="tier-item-check">–</span>Paid ads management</div>
-            <div class="tier-item locked"><span class="tier-item-check">–</span>Active seat filling campaigns</div>
-            <div class="tier-item locked"><span class="tier-item-check">–</span>Speaking & podcast outreach</div>
-          </div>
-          <a href="#cta" class="tier-cta feat-cta">Get Started →</a>
-        </div>
-      </div>
-
-      <!-- SCALE -->
-      <div class="tier-card reveal d2">
-        <div class="tier-head">
-          <div class="tier-badge">Scale</div>
-          <div class="tier-name">We Build, Run<br>& Fill It.</div>
-          <div class="tier-tagline">Every stream live. We drive clients in. You scale.</div>
-        </div>
-        <div class="tier-setup">
-          <div class="tier-setup-price">£26,000</div>
-          <div class="tier-setup-label">One-time setup · Full ecosystem build</div>
-        </div>
-        <div class="tier-body">
-          <div class="tier-retainer">then <strong>£2,997/mo</strong> — full management, growth & ads</div>
-          <div class="tier-streams">Active Revenue Streams</div>
-          <div class="tier-stream-list">
-            <span class="tier-stream-tag">Email List</span>
-            <span class="tier-stream-tag">Digital Products</span>
-            <span class="tier-stream-tag">Masterclass</span>
-            <span class="tier-stream-tag">Mastermind</span>
-            <span class="tier-stream-tag">Advisory</span>
-            <span class="tier-stream-tag">Speaking</span>
-          </div>
-          <div class="tier-items">
-            <div class="tier-item"><span class="tier-item-check">✓</span>Everything in Grow</div>
-            <div class="tier-item"><span class="tier-item-check">✓</span>All 6 revenue streams active</div>
-            <div class="tier-item"><span class="tier-item-check">✓</span>Paid ads managed monthly (LinkedIn + Amazon)</div>
-            <div class="tier-item"><span class="tier-item-check">✓</span>Masterclass & mastermind seats actively filled</div>
-            <div class="tier-item"><span class="tier-item-check">✓</span>10 speaking & podcast pitches per month</div>
-            <div class="tier-item"><span class="tier-item-check">✓</span>Corporate bulk book sales outreach</div>
-            <div class="tier-item"><span class="tier-item-check">✓</span>Full performance dashboard & monthly review</div>
-          </div>
-          <a href="#cta" class="tier-cta">Get Started →</a>
-        </div>
-      </div>
-
     </div>
   </div>
 </section>
