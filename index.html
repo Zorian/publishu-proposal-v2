@@ -135,8 +135,9 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;height:64px;display:flex;ali
 .svc-title{font-family:'Cormorant Garamond',serif;font-size:1.3rem;font-weight:500;color:white;margin-bottom:10px}
 .svc-desc{font-size:.8rem;color:rgba(255,255,255,.4);line-height:1.7;margin-bottom:16px}
 .svc-tags{display:flex;flex-wrap:wrap;gap:6px}
-.svc-tag{font-size:.58rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;padding:4px 9px;border:1px solid rgba(255,255,255,.1);color:rgba(255,255,255,.35);border-radius:2px}
-.svc-tag.active{border-color:rgba(74,138,95,.4);color:var(--green-light)}
+.svc-tag{font-size:.58rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;padding:4px 10px;border-radius:2px;display:inline-flex;align-items:center;gap:5px;border:1px solid rgba(255,255,255,.1);color:rgba(255,255,255,.3)}
+.svc-tag::before{content:'';width:5px;height:5px;border-radius:50%;background:currentColor;flex-shrink:0}
+.svc-tag.active{border-color:rgba(74,138,95,.5);color:var(--green-light);background:rgba(45,90,61,.2)}
 
 /* TIERS */
 .tiers-section{padding:100px 0;background:var(--cream)}
@@ -418,42 +419,42 @@ footer{background:var(--charcoal);padding:28px 0;border-top:1px solid rgba(255,2
         <div class="svc-icon">🏗️</div>
         <div class="svc-title">Full Ecosystem Build</div>
         <div class="svc-desc">Your complete author business — website, landing pages, product pages, email setup, CRM, automation flows and payment processing. Everything live in 2–4 weeks.</div>
-        <div class="svc-tags"><span class="svc-tag active">All Tiers</span><span class="svc-tag">Website</span><span class="svc-tag">CRM</span><span class="svc-tag">Automations</span><span class="svc-tag">Products</span></div>
+        <div class="svc-tags"><span class="svc-tag active">Launch</span><span class="svc-tag active">Grow</span><span class="svc-tag active">Scale</span></div>
       </div>
       <div class="svc-card reveal d1">
         <div class="svc-num">02 — Run</div>
         <div class="svc-icon">⚙️</div>
         <div class="svc-title">Backend Management</div>
         <div class="svc-desc">We manage the entire machine — CRM updates, email sequences, funnel performance, product delivery and monthly reporting. You focus on your work, not the tech.</div>
-        <div class="svc-tags"><span class="svc-tag active">Grow + Scale</span><span class="svc-tag">CRM</span><span class="svc-tag">Email</span><span class="svc-tag">Reporting</span></div>
+        <div class="svc-tags"><span class="svc-tag active">Grow</span><span class="svc-tag active">Scale</span></div>
       </div>
       <div class="svc-card reveal d2">
         <div class="svc-num">03 — Content</div>
         <div class="svc-icon">✍️</div>
         <div class="svc-title">LinkedIn & Content Strategy</div>
         <div class="svc-desc">We write and post your LinkedIn content 3x per week — turning your expertise into consistent visibility, inbound leads, and masterclass enquiries.</div>
-        <div class="svc-tags"><span class="svc-tag active">Grow + Scale</span><span class="svc-tag">LinkedIn</span><span class="svc-tag">Newsletter</span><span class="svc-tag">Copywriting</span></div>
+        <div class="svc-tags"><span class="svc-tag active">Grow</span><span class="svc-tag active">Scale</span></div>
       </div>
       <div class="svc-card reveal d3">
         <div class="svc-num">04 — Fill</div>
         <div class="svc-icon">🎯</div>
         <div class="svc-title">Active Seat Filling</div>
         <div class="svc-desc">We don't just set up your masterclass and mastermind — we actively fill the seats. Outreach, follow-up, retargeting ads and email campaigns targeted at getting bums on seats.</div>
-        <div class="svc-tags"><span class="svc-tag active">Scale Only</span><span class="svc-tag">Outreach</span><span class="svc-tag">Ads</span><span class="svc-tag">Follow-up</span></div>
+        <div class="svc-tags"><span class="svc-tag active">Scale</span></div>
       </div>
       <div class="svc-card reveal d4">
         <div class="svc-num">05 — Grow</div>
         <div class="svc-icon">📈</div>
         <div class="svc-title">Paid Ads & Lead Generation</div>
         <div class="svc-desc">LinkedIn and Amazon ads managed monthly. We promote the book, the free lead magnet, and the masterclass — building your audience and your email list continuously.</div>
-        <div class="svc-tags"><span class="svc-tag active">Scale Only</span><span class="svc-tag">LinkedIn Ads</span><span class="svc-tag">Amazon Ads</span><span class="svc-tag">Retargeting</span></div>
+        <div class="svc-tags"><span class="svc-tag active">Scale</span></div>
       </div>
       <div class="svc-card reveal d5">
         <div class="svc-num">06 — Place</div>
         <div class="svc-icon">🎤</div>
         <div class="svc-title">Speaking & Podcast Outreach</div>
         <div class="svc-desc">We pitch you to 10 podcasts and speaking opportunities per month — building your authority, your audience, and your speaking fee pipeline on your behalf.</div>
-        <div class="svc-tags"><span class="svc-tag active">Scale Only</span><span class="svc-tag">Podcasts</span><span class="svc-tag">Events</span><span class="svc-tag">Corporates</span></div>
+        <div class="svc-tags"><span class="svc-tag active">Scale</span></div>
       </div>
     </div>
   </div>
