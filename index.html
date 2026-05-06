@@ -259,6 +259,33 @@ footer{background:var(--charcoal);padding:28px 0;border-top:1px solid rgba(255,2
 .footer-mid{font-size:.68rem;color:rgba(255,255,255,.2)}
 .footer-built{font-size:.65rem;color:rgba(255,255,255,.15)}
 .footer-built em{color:rgba(255,255,255,.3);font-style:normal}
+
+/* FRONTEND SECTION */
+.frontend-section{padding:100px 0;background:var(--ink)}
+.frontend-intro{text-align:center;max-width:580px;margin:0 auto 56px}
+.funnel-bar{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin-bottom:56px;border:1px solid rgba(255,255,255,.08);border-radius:3px;overflow:hidden}
+.funnel-step{padding:18px 16px;text-align:center;border-right:1px solid rgba(255,255,255,.08);position:relative}
+.funnel-step:last-child{border-right:none}
+.funnel-step::after{content:'→';position:absolute;right:-10px;top:50%;transform:translateY(-50%);font-size:.8rem;color:rgba(255,255,255,.2);z-index:1}
+.funnel-step:last-child::after{display:none}
+.funnel-step-num{font-family:'Cormorant Garamond',serif;font-size:1rem;font-weight:600;color:white;margin-bottom:4px}
+.funnel-step-label{font-size:.65rem;color:rgba(255,255,255,.35);letter-spacing:.06em}
+.frontend-cat-label{font-size:.58rem;font-weight:700;letter-spacing:.22em;text-transform:uppercase;color:rgba(255,255,255,.3);margin-bottom:14px}
+.frontend-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:32px}
+.frontend-grid-2{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-bottom:32px}
+.fe-card{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:3px;padding:22px 20px;transition:all .25s;cursor:default}
+.fe-card:hover{background:rgba(255,255,255,.07);border-color:rgba(255,255,255,.14);transform:translateY(-2px)}
+.fe-card.highlight{border-color:rgba(45,90,61,.5);background:rgba(45,90,61,.12)}
+.fe-head{display:flex;align-items:center;gap:10px;margin-bottom:10px}
+.fe-icon{width:32px;height:32px;border-radius:2px;background:rgba(255,255,255,.06);display:flex;align-items:center;justify-content:center;font-size:1rem;flex-shrink:0}
+.fe-title{font-size:.85rem;font-weight:600;color:white}
+.fe-desc{font-size:.75rem;color:rgba(255,255,255,.45);line-height:1.65;margin-bottom:12px}
+.fe-tags{display:flex;flex-wrap:wrap;gap:5px}
+.fe-tag{font-size:.58rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;padding:3px 8px;border:1px solid rgba(255,255,255,.1);color:rgba(255,255,255,.3);border-radius:2px}
+.fe-tag.hot{border-color:rgba(45,90,61,.5);color:var(--green-light);background:rgba(45,90,61,.15)}
+.fe-tag.new{border-color:rgba(201,150,12,.4);color:var(--gold-light);background:rgba(201,150,12,.1)}
+.fe-sep{height:1px;background:rgba(255,255,255,.06);margin:28px 0}
+
 </style>
 </head>
 <body>
@@ -674,6 +701,100 @@ footer{background:var(--charcoal);padding:28px 0;border-top:1px solid rgba(255,2
           <span class="ri-total-val">£463,068</span>
         </div>
       </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- FRONTEND -->
+<section class="frontend-section">
+  <div class="container">
+    <div class="frontend-intro">
+      <div class="ey lt cent reveal"><div class="ey-line"></div><div class="ey-txt">How We Drive Clients In</div><div class="ey-line"></div></div>
+      <h2 class="h2 lt reveal d1">The front-end growth engine<br><em>that fills your programmes.</em></h2>
+      <p class="body-t lt reveal d2" style="margin-top:14px">Your book establishes the authority. These channels do one job: drive the right people into your masterclass, mastermind, advisory, and courses — and convert them into paying clients.</p>
+    </div>
+
+    <div class="funnel-bar reveal">
+      <div class="funnel-step"><div class="funnel-step-num">Awareness</div><div class="funnel-step-label">They discover you</div></div>
+      <div class="funnel-step"><div class="funnel-step-num">Interest</div><div class="funnel-step-label">They engage with content</div></div>
+      <div class="funnel-step"><div class="funnel-step-num">Lead</div><div class="funnel-step-label">They join your list</div></div>
+      <div class="funnel-step"><div class="funnel-step-num">Client</div><div class="funnel-step-label">They buy a programme</div></div>
+    </div>
+
+    <div class="frontend-cat-label reveal">Organic — we run these for you</div>
+    <div class="frontend-grid">
+      <div class="fe-card highlight reveal">
+        <div class="fe-head"><div class="fe-icon">💼</div><div class="fe-title">LinkedIn content</div></div>
+        <div class="fe-desc">We write and post 3x per week in your voice — thought leadership, frameworks, stories from your book. Your audience is already there. We turn your expertise into a constant stream of inbound enquiries.</div>
+        <div class="fe-tags"><span class="fe-tag hot">Highest impact</span><span class="fe-tag">Ghostwritten</span><span class="fe-tag">Carousels</span></div>
+      </div>
+      <div class="fe-card reveal d1">
+        <div class="fe-head"><div class="fe-icon">📩</div><div class="fe-title">LinkedIn newsletter</div></div>
+        <div class="fe-desc">A weekly edition pushed to all your followers as a notification — free reach, zero ad spend. Each edition ends with one CTA: join your list or book a masterclass seat. Builds your email list on autopilot.</div>
+        <div class="fe-tags"><span class="fe-tag">Email capture</span><span class="fe-tag">Free reach</span></div>
+      </div>
+      <div class="fe-card reveal d2">
+        <div class="fe-head"><div class="fe-icon">✍️</div><div class="fe-title">Substack</div></div>
+        <div class="fe-desc">We mirror the newsletter on Substack — its own discovery engine that surfaces your thinking to people actively searching for consulting and leadership content. A second audience building independently.</div>
+        <div class="fe-tags"><span class="fe-tag">Discovery</span><span class="fe-tag">Second audience</span></div>
+      </div>
+      <div class="fe-card reveal d3">
+        <div class="fe-head"><div class="fe-icon">🎙️</div><div class="fe-title">Podcast guest circuit</div></div>
+        <div class="fe-desc">We pitch you to 10 leadership, business and consulting podcasts per month. Each appearance ends with a link to your site. Warm, pre-qualified audiences who already trust the host — the highest-converting organic channel after LinkedIn.</div>
+        <div class="fe-tags"><span class="fe-tag">10 pitches/mo</span><span class="fe-tag">Authority</span><span class="fe-tag">Backlinks</span></div>
+      </div>
+      <div class="fe-card highlight reveal d4">
+        <div class="fe-head"><div class="fe-icon">📱</div><div class="fe-title">Speaking follow-up funnel</div></div>
+        <div class="fe-desc">Every time you speak, a QR code slide sends attendees to a dedicated landing page — companion guide download + newsletter sign-up. The warmest possible audience, converting at the highest possible rate.</div>
+        <div class="fe-tags"><span class="fe-tag hot">Highest conversion</span><span class="fe-tag">QR page built</span></div>
+      </div>
+      <div class="fe-card reveal d5">
+        <div class="fe-head"><div class="fe-icon">📰</div><div class="fe-title">Forbes / Entrepreneur</div></div>
+        <div class="fe-desc">We ghostwrite 2–3 articles per month under your name for major business publications. Builds SEO, positions you as the go-to authority, and generates inbound advisory enquiries from exactly the audience you want.</div>
+        <div class="fe-tags"><span class="fe-tag new">Authority</span><span class="fe-tag">SEO</span><span class="fe-tag">Ghostwritten</span></div>
+      </div>
+    </div>
+
+    <div class="fe-sep"></div>
+    <div class="frontend-cat-label reveal">Paid — we manage these for you</div>
+    <div class="frontend-grid">
+      <div class="fe-card reveal">
+        <div class="fe-head"><div class="fe-icon">🎯</div><div class="fe-title">LinkedIn ads</div></div>
+        <div class="fe-desc">We target by job title, industry, and seniority — putting your masterclass and companion guide in front of the exact executives and business leaders who will buy. £10–20/day to test, scale what converts.</div>
+        <div class="fe-tags"><span class="fe-tag">Targeted</span><span class="fe-tag">Lead magnet</span><span class="fe-tag">Scalable</span></div>
+      </div>
+      <div class="fe-card highlight reveal d1">
+        <div class="fe-head"><div class="fe-icon">🔁</div><div class="fe-title">Website retargeting</div></div>
+        <div class="fe-desc">Anyone who visits your site gets followed by masterclass and mastermind ads. The lowest cost, highest intent channel — these people already know who you are. One pixel, running 24/7.</div>
+        <div class="fe-tags"><span class="fe-tag hot">Lowest cost</span><span class="fe-tag hot">Highest intent</span></div>
+      </div>
+      <div class="fe-card reveal d2">
+        <div class="fe-head"><div class="fe-icon">🏢</div><div class="fe-title">Corporate bulk outreach</div></div>
+        <div class="fe-desc">We approach L&D departments, HR directors, and leadership programme coordinators directly. Companies buy books in bulk and book speakers for corporate events. One deal generates more revenue than 20 individual clients.</div>
+        <div class="fe-tags"><span class="fe-tag new">High value</span><span class="fe-tag">B2B pipeline</span><span class="fe-tag">Speaking fees</span></div>
+      </div>
+    </div>
+
+    <div class="fe-sep"></div>
+    <div class="frontend-cat-label reveal">Email — your most valuable owned asset</div>
+    <div class="frontend-grid-2">
+      <div class="fe-card highlight reveal">
+        <div class="fe-head"><div class="fe-icon">📧</div><div class="fe-title">Automated welcome sequence</div></div>
+        <div class="fe-desc">Every new subscriber gets a 5-email sequence over 2 weeks — written and built by us. Each email introduces one of your revenue streams, builds trust, and ends with a specific CTA. Turns a passive list member into an active buyer without you lifting a finger.</div>
+        <div class="fe-tags"><span class="fe-tag hot">Automated</span><span class="fe-tag hot">Passive revenue</span><span class="fe-tag">Built for you</span></div>
+      </div>
+      <div class="fe-card reveal d1">
+        <div class="fe-head"><div class="fe-icon">📬</div><div class="fe-title">Monthly campaigns</div></div>
+        <div class="fe-desc">We write, design and send one campaign to your full list every month — promoting whichever programme has open seats. Masterclass booking window, mastermind applications, new course launch. Your list works for you every single month.</div>
+        <div class="fe-tags"><span class="fe-tag">Written</span><span class="fe-tag">Designed</span><span class="fe-tag">Sent for you</span></div>
+      </div>
+    </div>
+
+    <div class="fe-sep reveal"></div>
+    <div class="reveal" style="background:rgba(45,90,61,.15);border:1px solid rgba(45,90,61,.3);border-radius:3px;padding:28px 32px;display:flex;gap:18px;align-items:flex-start">
+      <div style="font-size:1.3rem;flex-shrink:0;margin-top:2px">🎯</div>
+      <div style="font-size:.88rem;color:rgba(255,255,255,.75);line-height:1.75"><strong style="color:white">Every channel has one job: put paying clients into your programmes.</strong> We don't measure success by followers or likes. We measure it by masterclass seats filled, mastermind applications submitted, advisory enquiries received, and course enrolments completed. That's what the retainer is accountable to — every single month.</div>
     </div>
   </div>
 </section>
