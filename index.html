@@ -79,7 +79,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;height:64px;display:flex;ali
 .hero{min-height:100vh;background:var(--ink);display:flex;align-items:center;padding-top:64px;position:relative;overflow:hidden}
 .hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 65% 40%,rgba(45,90,61,.25) 0%,transparent 65%)}
 .hero::after{content:'';position:absolute;bottom:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,rgba(255,255,255,.1),transparent)}
-.hero-inner{display:grid;grid-template-columns:1fr 380px;gap:72px;align-items:center;padding:80px 0}
+.hero-inner{display:grid;grid-template-columns:1fr;gap:0;align-items:center;padding:80px 0;max-width:720px}
 .hero-for{display:flex;align-items:center;gap:12px;margin-bottom:24px}
 .hero-for-line{width:28px;height:1px;background:var(--green-light)}
 .hero-for-txt{font-size:.6rem;font-weight:700;letter-spacing:.22em;text-transform:uppercase;color:var(--green-light)}
@@ -425,23 +425,7 @@ footer{background:var(--charcoal);padding:28px 0;border-top:1px solid rgba(255,2
           <div><div class="hs-num">∞</div><div class="hs-label">Ongoing support<br>& management</div></div>
         </div>
       </div>
-      <div class="reveal d2">
-        <div class="hero-card">
-          <div class="hc-label">Choose your growth level</div>
-          <div class="hc-tier">
-            <div class="hc-row">
-              <div><div class="hc-name">LAUNCH</div><div class="hc-sub">Build it, you grow it</div></div>
             </div>
-            <div class="hc-row featured">
-              <div><div class="hc-name">GROW</div><div class="hc-sub">Build it & run it</div></div>
-            </div>
-            <div class="hc-row">
-              <div><div class="hc-name">SCALE</div><div class="hc-sub">Build, run & fill it</div></div>
-            </div>
-          </div>
-          <div class="hc-note">All packages built and managed by a dedicated team. 2–4 week delivery from sign-off.</div>
-        </div>
-      </div>
     </div>
   </div>
 </section>
